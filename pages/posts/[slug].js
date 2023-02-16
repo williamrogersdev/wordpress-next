@@ -7,8 +7,7 @@ export default function Post( data ){
     return (
         <div>
             <h1>{post.title}</h1>
-            <Image width="640" height="426" src={post.featuredImage.node.sourceUrl} />
-            <article dangerouslySetInnerHTML={{__html: post.content}}></article>
+  
         </div>
     )
 
